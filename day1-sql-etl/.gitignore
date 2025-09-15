@@ -1,0 +1,7 @@
+# Ignore everything except Day 1 files
+*
+!pipelines/
+!incremental_load_merge_snowflake
+!README.md
+!data/
+!.gitignore
