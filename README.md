@@ -1,8 +1,4 @@
-Perfect 🎉 since you’ve completed **all three pipelines** (API → CSV, CSV → Parquet, Parquet → Snowflake, plus transformation), here’s a neat **README.md** you can drop into your repo.
 
----
-
-```markdown
 # 🚀 Mini ELT Pipeline with PySpark & Snowflake
 
 This project demonstrates a simple **end-to-end ELT pipeline** built with **Python, PySpark, Hadoop (for Windows compatibility), and Snowflake**.  
@@ -131,12 +127,3 @@ python pipelines/snowflake_transform.py
 * Schedule daily loads
 * Add **data quality checks** before Snowflake load
 * Expand to multi-table incremental ELT
-
----
-
-```
-
----
-
-Do you want me to also include **sample SQL DDL scripts** for creating the `USERS_BY_COUNTRY_STAGE` and `USERS_BY_COUNTRY_FINAL` tables in Snowflake, so anyone running your repo can reproduce it?
-```
