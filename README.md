@@ -1,4 +1,3 @@
-```markdown
 # Day 3 — Data Modeling & Warehousing (dbt + Snowflake)
 
 This project demonstrates how to build a **star-schema style warehouse** in Snowflake using **dbt**.  
@@ -7,8 +6,6 @@ I ingested raw CSVs into the `RAW` schema, transform them into staging views, ap
 ---
 
 ## 📂 Project Structure
-
-```
 
 dbt\_project/
 │── dbt\_project.yml
@@ -27,8 +24,6 @@ dbt\_project/
 │── snapshots/
 │   └── customers\_snapshot.sql
 │── tests/
-
-````
 
 ---
 
@@ -99,3 +94,4 @@ In the `ANALYTICS` schema:
 ```
 
 ---
+
