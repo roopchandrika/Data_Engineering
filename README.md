@@ -97,13 +97,6 @@ In the `ANALYTICS` schema:
 
 ---
 
-## 📊 Workflow Diagram
-
-![Day 3 Workflow]
-
-
-
-<img width="1589" height="1044" alt="output" src="https://github.com/user-attachments/assets/d8465641-f7e5-439e-ac88-b79ec43c3cf3" />
 
 
 
