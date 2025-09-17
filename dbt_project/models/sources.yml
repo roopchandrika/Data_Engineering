@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    database: DAY3_DEMO
+    schema: RAW
+    tables:
+      - name: CUSTOMERS_STAGE
+      - name: PRODUCTS_STAGE
+      - name: ORDERS_STAGE

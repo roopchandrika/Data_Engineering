@@ -1,0 +1,16 @@
+name: day3_demo
+version: 1.0.0
+config-version: 2
+
+profile: my_snowflake_project
+
+model-paths: ["models"]
+snapshot-paths: ["snapshots"]
+test-paths: ["tests"]
+
+models:
+  day3_demo:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
