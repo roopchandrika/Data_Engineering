@@ -1,0 +1,12 @@
+my_snowflake_project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: fgbubxd-yua59733   # match your Snowflake login URL
+      user: Chandrika
+      password: Chandrika@0957
+      role: ACCOUNTADMIN
+      warehouse: COMPUTE_WH
+      database: DAY3_DEMO
+      schema: ANALYTICS   # 🔹 dbt writes everything here
