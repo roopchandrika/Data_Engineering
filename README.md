@@ -4,7 +4,7 @@
 
 ## ✅ Overview
 
-On Day 4, I set up **Apache Airflow** locally using **Docker Compose** with a Postgres backend and orchestrated three data pipelines:
+On Day 4, I set up **Apache Airflow** locally using **Docker Compose** with a Postgres backend and orchestrated three data pipelines
 
 1. **CSV → Postgres**
 2. **API → Postgres**
@@ -129,3 +129,4 @@ docker exec -it elt-postgres-1 psql -U airflow -d airflow -c "SELECT * FROM api_
 * Confirmed results in Postgres by querying target tables.
 
 ---
+
