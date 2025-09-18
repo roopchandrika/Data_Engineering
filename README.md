@@ -1,5 +1,3 @@
----
-
 # 📘 Day 4 – Orchestration with Airflow
 
 ## ✅ Overview
@@ -11,8 +9,6 @@ On Day 4, I set up **Apache Airflow** locally using **Docker Compose** with a Po
 3. **Postgres → dbt transformations**
 
 This completes the orchestration layer of the data engineering workflow.
-
----
 
 ## 🏗️ Project Structure
 
@@ -129,4 +125,5 @@ docker exec -it elt-postgres-1 psql -U airflow -d airflow -c "SELECT * FROM api_
 * Confirmed results in Postgres by querying target tables.
 
 ---
+
 
