@@ -11,7 +11,7 @@
 import great_expectations as gx
 
 # Create or load the Data Context
-context = gx.get_context()
+context = gx.get_context(context_root_dir="/opt/airflow/great_expectations")
 
 
 # ### **Step 2 – Add Datasource (CSV Example)**
@@ -31,7 +31,8 @@ else:
 
 # Register (or get) a CSV file as a Data Asset
 asset_name = "transactions"
-csv_path = r"C:\Users\mrcha\Desktop\docker\ELT\day7-data-quality-governance\transactions.csv"  # replace with your CSV path
+csv_path = "/opt/airflow/data/transactions.csv"
+  # replace with your CSV path
 try:
     asset = datasource.get_asset(asset_name)
 except Exception:
@@ -197,4 +198,3 @@ context.open_data_docs()
 # 1. Add more **Expectations** (uniqueness, duplicate detection, ranges).  
 # 2. Build **Airflow DAG** to trigger this checkpoint daily.  
 # 3. In **Snowflake**, implement RBAC + column masking.  
-# 

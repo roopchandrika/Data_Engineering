@@ -1,0 +1,6 @@
+user_id,transaction_type,amount
+1,CREDIT,500
+2,DEBIT,200
+3,CREDIT,1500
+4,DEBIT,300
+5,CREDIT,9999
